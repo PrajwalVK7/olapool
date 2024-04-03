@@ -65,7 +65,7 @@ function ViewProduct() {
                     ))}
                 </div>
             </div>
-            <div className='hidden md:block fixed right-52 '>
+            <div className='hidden md:block fixed right-28 bottom-28 '>
                 {show&&
                     <ul className='flex justify-end flex-col '>
                     <li><button onClick={()=>setShow(false)} className='btn btn-primary rounded-md mb-3'>New order</button></li>
@@ -73,7 +73,6 @@ function ViewProduct() {
                 </ul>
                 }
                 <div className='flex justify-center'>
-
                     <button onClick={()=>setShow(true)} onDoubleClick={()=>setShow(false)} className='btn btn-primary rounded-lg'><i class="fa-solid fa-x"></i></button>
                 </div>
             </div>
