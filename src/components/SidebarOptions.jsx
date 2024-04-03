@@ -17,7 +17,7 @@ console.log("menu",menu)
   return (
     <>
     <menu className='flex justify-center items-center flex-col'>
-                    <button className='mt-3 w-full flex justify-between items-center p-3  rounded hover:bg-cyan-500'>
+                    <button className='mt-2 w-full flex justify-between items-center p-3  rounded hover:bg-cyan-500'>
                         <div className="flex items-center">
                             <i className="fa-solid fa-table"></i>
                             <span className='text-xl ml-2'>Overview</span>
@@ -25,14 +25,14 @@ console.log("menu",menu)
                         <i className="fa-solid fa-angle-down"></i>
                     </button>
                     
-                    <button onClick={()=>handleSetMenu('store')} className='mt-3 w-full flex justify-between items-center p-3  rounded hover:bg-cyan-500'>
+                    <button onClick={()=>handleSetMenu('store')} className='mt-2 w-full flex justify-between items-center p-3  rounded hover:bg-cyan-500'>
                         <div className="flex items-center">
                             <i className="fa-solid fa-table"></i>
                             <span className='text-xl ml-2'>Store</span>
                         </div>
                         <i className="fa-solid fa-angle-down"></i>
                     </button>
-                    <button onClick={()=>handleSetMenu('user')}  className='mt-3 w-full flex justify-between items-center p-3  rounded hover:bg-cyan-500'>
+                    <button onClick={()=>handleSetMenu('user')}  className='mt-2 w-full flex justify-between items-center p-3  rounded hover:bg-cyan-500'>
                         <div className="flex items-center">
                             <i className="fa-solid fa-table"></i>
                             <span className='text-xl ml-2'>User Account</span>

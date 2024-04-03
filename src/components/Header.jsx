@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
     return (
         <>
-            <nav className='bg-gray-200 py-4'>
+            <nav className='bg-gray-200 py-1'>
                 <div className='container mx-auto px-4 lg:px-0 flex justify-between items-center'>
                 <h1 class="text-3xl bg-gradient-to-r  from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Olapool</h1>
                     <div className='flex space-x-4 border-2 border-b-slate-200'>

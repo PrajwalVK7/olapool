@@ -6,7 +6,7 @@ import SidebarOptions from '../components/SidebarOptions';
 
 function Menu({onMenuItemClick}) {
     return (
-        <div className='py-5 flex flex-col gap-10 sm:flex sm:flex-col lg:flex-col sm:h-screen'>
+        <div className='py-1 flex flex-col gap-10 sm:flex sm:flex-col lg:flex-col sm:h-screen'>
             <div className='sm:rounded-md bg-white sm:bg-blue-400 p-3'>
                 <ProfileIcon />
             </div>
