@@ -6,11 +6,11 @@ import SidebarOptions from '../components/SidebarOptions';
 
 function Menu({onMenuItemClick}) {
     return (
-        <div className='py-5 flex flex-col gap-10 sm:flex sm:flex-col lg:flex-col'>
-            <div>
+        <div className='py-5 flex flex-col gap-10 sm:flex sm:flex-col lg:flex-col sm:h-screen'>
+            <div className='sm:rounded-md bg-white sm:bg-blue-400 p-3'>
                 <ProfileIcon />
             </div>
-            <div className='p-3 border border-gray-400 rounded '>
+            <div className='p-3 border border-gray-400 rounded hidden lg:block '>
                 <h2>Available For Use</h2>
                 <h1>0.00</h1>
                 <div className='flex justify-between mt-3'>

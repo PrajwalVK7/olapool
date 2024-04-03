@@ -6,8 +6,9 @@ function Products() {
     return (
         <>
             <div>
+                <div className='hidden lg:block'>
                 <div className='flex justify-end'>
-                    <div className='me-10 w-full flex justify-end'>
+                    <div className='me-10 w-full flex justify-end '>
                         <input className='border-1 rounded-s-md rounded-e-none border-gray-400 w-72 h-10 text-lg text-start ps-4 text-black' type="text" placeholder='Srearch Product' />
                         <button className=' bg-blue-600 rounded-e-lg  w-12 h-10'></button>
                     </div>
@@ -18,6 +19,7 @@ function Products() {
                         </span>
                     </button>
 
+                </div>
                 </div>
                 <div className='bg-white rounded-sm'>
                     <ViewProduct />

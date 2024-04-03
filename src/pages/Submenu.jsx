@@ -28,13 +28,13 @@ function Submenu() {
     };
 
     return (
-        <div>
+        <div className='sm:h-screen h-screen sm:py-50'>
             {submenuItems &&
-                <div>
+                <div className='sm:mt-20'>
                     <ul>
                         {submenuItems.map((item, index) => (
                             <li className='mb-3 mt-3' key={index}>
-                                <button onClick={() => handleSubmenuClick(item.component)}>
+                                <button className='sm:border sm:border-b-slate-300 sm:rounded-md  sm:shadow-md sm:bg-slate-300 borde-1 w-full' onClick={() => handleSubmenuClick(item.component)}>
                                     {item.submenu}
                                 </button>
                             </li>
