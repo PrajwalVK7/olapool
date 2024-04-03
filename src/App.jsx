@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 
 function App() {
-  const isSmallScreen = window.innerWidth < 768; // Adjust the breakpoint as needed
+  const isSmallScreen = window.innerWidth < 768; 
 
   return (
     <>

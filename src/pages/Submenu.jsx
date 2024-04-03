@@ -1,4 +1,3 @@
-// Submenu.js
 import React, { useContext } from 'react';
 import { ActiveComponent, SubmenuContext, SubmenuStatusContext} from '../context/contextShare';
 import Products from './Products';
