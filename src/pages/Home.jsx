@@ -77,19 +77,25 @@ function Home() {
               <div className="grid lg:grid-cols-4 sm:grid-cols-1">
                 {(!showComponent && isSmallScreen) || !isSmallScreen ? (
                   <div className="col-span-1 p-3" onClick={handleSubmenuClick}>
-                    <button className="bg-blue-100 text-black px-4 py-2 rounded-lg" onClick={handleSubmenuItemBack}><i class="fa-solid fa-arrow-left"></i></button>
+                    <button className="bg-blue-100 text-black px-4 py-2 rounded-lg" onClick={handleSubmenuItemBack}><i className="fa-solid fa-arrow-left"></i></button>
                     <Submenu onSubmenuItemBack={handleSubmenuItemBack} />
                   </div>
                 ) : null}
                 {showComponent && (
                   <div className="col-span-3  bg-white rounded-md mt-3 me-3 mb-3 p-3">
-                    <button className=" bg-blue-100 text-black px-4 py-2 rounded-lg" onClick={handleSubmenuItemBack}><i class="fa-solid fa-arrow-left"></i></button>
+                    <button className=" bg-blue-100 text-black px-4 py-2 rounded-lg" onClick={handleSubmenuItemBack}><i className="fa-solid fa-arrow-left"></i></button>
                     {component}
                   </div>
                 )}
               </div>
             </section>
           </div>
+        </div>
+      )}
+      {(!showSubmenu || !showComponent) && (
+        <div className="hidden lg:block lg:col-span-1">
+          <p className='text-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tenetur voluptatem dolores. Libero at aspernatur suscipit quis eius eligendi beatae sit placeat. Nulla illo iusto id, laboriosam sunt rem recusandae.</p>
+
         </div>
       )}
     </div>

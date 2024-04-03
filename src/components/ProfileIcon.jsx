@@ -10,8 +10,8 @@ function ProfileIcon() {
           <Badge className="position-absolute bottom-0 end-0 mb-1 me-1" style={{ borderRadius: '50%' }}>3</Badge>
         </div>
         <div className='ms'>
-          <h3 className='text-lg'>Miya Hashim</h3>
-          <h4 className='text-base'>Verification Level: 3</h4>
+          <h3 className='text-1xl'>Miya Hashim</h3>
+          <h4 className='text-base  text-green-600 text-opacity-100'>Verification Level: 3</h4>
           <h6>Ernakulam, India</h6>
         </div>
       </div>

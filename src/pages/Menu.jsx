@@ -10,16 +10,16 @@ function Menu({onMenuItemClick}) {
             <div className='sm:rounded-md bg-white sm:bg-blue-400 p-3'>
                 <ProfileIcon />
             </div>
-            <div className='p-3 border border-gray-400 rounded hidden lg:block '>
+            <div className='p-3 border-2 border-gray-400 rounded hidden lg:block '>
                 <h2>Available For Use</h2>
                 <h1>0.00</h1>
                 <div className='flex justify-between mt-3'>
                     <h3>Beign Cleared</h3>
-                    <button className='btn btn-outline-secondary' style={{ width: '7rem' }}>Withdraw</button>
+                    <button className='btn btn-outline-secondary text-black' style={{ width: '7rem' }}>Withdraw</button>
                 </div>
                 <div className='flex justify-between mt-3'>
                     <h3>0.00</h3>
-                    <button className='btn btn-outline-secondary' style={{ width: '7rem' }}>History</button>
+                    <button className='btn btn-outline-secondary text-black' style={{ width: '7rem' }}>History</button>
                 </div>
             </div>
             <div className='mt-1'>

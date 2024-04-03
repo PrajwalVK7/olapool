@@ -5,3 +5,7 @@
 .dropdown-toggle::after {
     content: none !important;
 }
+*{
+    box-sizing: border-box;
+    font-weight: 700;
+}
